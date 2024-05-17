@@ -1,0 +1,108 @@
+body{
+    background-color: #c6e1c8;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.45);
+    font-size: 500%;
+    padding: 50px;
+    text-align: center;        
+    font-family: Verdana,sans-serif;    
+    color: #283f13;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;    
+    position: relative;
+    top: 210px;
+
+}
+
+h2{
+    color: #283f13;   
+    font-variant: small-caps;
+    text-decoration: dashed underline; 
+    margin-bottom: 10px;
+
+}
+
+h3{
+    background-color: #283f13;
+    color: white;
+    margin-bottom: 0;   
+    border-top: 6px solid #77a85c;  
+    padding: 10px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px
+}
+
+section.row{
+    background-color: rgba(255 255 255 / 0.7);
+}
+
+table{
+    border: 1px solid #77a85c;
+    margin: auto;
+    width: 80%;
+}
+
+thead{
+    background-color: #283f13;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+tbody tr:nth-child(even){
+    background-color: #c6e1c8;
+}
+
+tbody td:last-child{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+caption{
+    text-align: center;
+}
+
+footer{
+    background-color: #283f13;
+    
+}
+header{
+    height: 500px;
+    background-image: url(../img/toboz_banner.jpg);
+    background-position-x: center;
+    background-position-y: center;
+   
+}
+p{
+    text-indent: 10px;
+}
+li{
+    list-style: url(../img/pine-cone.png);
+    line-height: 30px;
+}
+th,td{
+    padding: 10px;
+
+}
+td:first-child{
+    font-weight: bold;
+
+
+}
+td:last-child{
+    font-style: italic;
+    
+
+}
+caption{
+    font-style: italic;
+    margin-top: 6px;
+
+}
+a{
+    color:rgb(233, 157, 64);
+    padding: 3px;
+    font-weight: bold;
+}
